@@ -1,0 +1,16 @@
+[Unit]
+Description=scene.org Music Discovery App
+After=network.target
+
+[Service]
+Type=simple
+User=tlister
+Group=tlister
+WorkingDirectory=/home/tlister/Documents/cornell-music
+ExecStart=/home/tlister/Documents/cornell-music/.venv/bin/uvicorn app.main:app --host 0.0.0.0 --port 9000
+Restart=on-failure
+RestartSec=5
+Environment=PYTHONUNBUFFERED=1
+
+[Install]
+WantedBy=multi-user.target

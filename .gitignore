@@ -1,0 +1,17 @@
+# Virtual environment
+.venv/
+
+# Runtime caches
+cache/downloads/
+cache/converted/
+cache/art/
+
+# User-specific saved files
+upvoted/
+
+# Python
+__pycache__/
+*.pyc
+
+# Claude Code
+.claude/

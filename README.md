@@ -1,6 +1,6 @@
 # scene-music
 
-A shuffle player for the [scene.org](https://www.scene.org/) demoscene music archive. Crawls the mirror catalog (already included, don't bang on Cornell's servers needlessly), builds a searchable database, and streams tracks through a web UI with format conversion handled server-side.
+A shuffle player for the [scene.org](https://www.scene.org/) demoscene music archive. Crawls the mirror catalog (already included, don't bang on the mirror servers needlessly), builds a searchable database, and streams tracks through a web UI with format conversion handled server-side.
 
 Supports MOD/XM/IT/S3M tracker formats (via ffmpeg + libopenmpt), SID files (via sidplayfp), and standard audio (MP3, OGG, FLAC, WAV).
 

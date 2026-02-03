@@ -5,7 +5,7 @@ A shuffle player for the [scene.org](https://www.scene.org/) demoscene music arc
 Supports MOD/XM/IT/S3M tracker formats (via ffmpeg + libopenmpt), SID files (via sidplayfp), and standard audio (MP3, OGG, FLAC, WAV).
 
 ## Screenshot
-<img src="screenshot.png" style="max-width: 600px; width: 100%;">
+<img src="screenshot.png" width="300">
 
 ## Dependencies
 

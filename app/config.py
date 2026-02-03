@@ -12,7 +12,7 @@ CACHE_DIR = BASE_DIR / "cache"
 DOWNLOAD_CACHE = CACHE_DIR / "downloads"
 CONVERTED_CACHE = CACHE_DIR / "converted"
 ART_CACHE = CACHE_DIR / "art"
-UPVOTED_DIR = BASE_DIR / "upvoted"
+UPVOTED_DIR = Path("/mnt/storage/scene-music")
 DB_PATH = DATA_DIR / "music.db"
 
 # Cache limits (bytes)

@@ -1,4 +1,4 @@
-# cornell-music
+# scene-music
 
 A shuffle player for the [scene.org](https://www.scene.org/) demoscene music archive. Crawls the mirror catalog, builds a searchable database, and streams tracks through a web UI with format conversion handled server-side.
 
@@ -22,12 +22,12 @@ uvicorn app.main:app --host 0.0.0.0 --port 9000
 ### systemd service
 
 ```bash
-sudo cp cornell-music.service /etc/systemd/system/
+sudo cp scene-music.service /etc/systemd/system/
 sudo systemctl daemon-reload
-sudo systemctl enable --now cornell-music
+sudo systemctl enable --now scene-music
 ```
 
-Edit `cornell-music.service` to adjust `User`, `WorkingDirectory`, and port as needed.
+Edit `scene-music.service` to adjust `User`, `WorkingDirectory`, and port as needed.
 
 ## Project structure
 
